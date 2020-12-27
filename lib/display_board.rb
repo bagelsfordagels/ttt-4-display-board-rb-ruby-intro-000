@@ -19,3 +19,4 @@ def start_game
 end
 
 start_game
+p board_progress
