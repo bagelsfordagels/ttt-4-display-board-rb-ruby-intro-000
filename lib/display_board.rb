@@ -15,7 +15,7 @@ def start_game
   display_board([" ", " ", " ", " ", " ", " ", " ", " ", " " ])
   puts "What is your X move (1-9)?"
   player_move = gets.chomp.to_i
-  board_progress.push(player_move) 
+  board_progress.push(player_move)
 end
 
 start_game
