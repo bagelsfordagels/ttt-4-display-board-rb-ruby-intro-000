@@ -10,7 +10,7 @@ def display_board(board = nil)
 end
 
 def start_game
-  board_progress = []
+  x = board_progress = []
   puts "Welcome to Tic Tac Toe!"
   display_board([" ", " ", " ", " ", " ", " ", " ", " ", " " ])
   puts "What is your X move (1-9)?"
@@ -19,4 +19,4 @@ def start_game
 end
 
 start_game
-p board_progress
+p x
